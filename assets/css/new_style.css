@@ -79,6 +79,32 @@ body {
 	border: none;
 }
 
+.btn-search {
+	background-color: #dc3636;
+}
+
+.btn-cart {
+	transition: background-color 2s;
+}
+
+.btn-cart:hover {
+	background-color: #dc3636;
+	border: none;
+	color: #fff;
+}
+
+.btn-search:hover {
+	background-color: #dc3636 !important;
+}
+
+.header-search {
+	max-width: 52rem;
+}
+
+.input-search:focus {
+	box-shadow: none;
+}
+
 .card-product {
 	border-radius: 10px;
 	border: 1px solid #e4e4e4;
@@ -115,6 +141,32 @@ body {
 .footer-footer {
 	background-color: #111111;
 	color: #fff;
+}
+
+.has-submenu a {
+	font-weight: 300 !important;
+}
+
+.shop-default-banner {
+	background-image: url(/assets/images/banner.jpg);
+	min-height: 500px;
+	background-size: cover;
+	/* background-position: right bottom; */
+}
+
+.socials {
+	height: 40px;
+	width: 40px;
+	margin: 0 10px;
+	border-radius: 50%;
+	text-align: center;
+	background-color: #fff;
+	padding: 12px 10px;
+}
+
+.socials > a > i {
+	color: #111111;
+	font-size: 20px;
 }
 
 @media screen and (max-width: 768px) {
