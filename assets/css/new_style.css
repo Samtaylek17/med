@@ -154,6 +154,17 @@ body {
 	/* background-position: right bottom; */
 }
 
+.cart-count {
+	width: 1.6rem !important;
+	height: 1.6rem !important;
+	right: 25px !important;
+}
+
+.cart-label {
+	display: inline-block !important;
+	padding-left: 5px !important;
+}
+
 .socials {
 	height: 40px;
 	width: 40px;
