@@ -1045,9 +1045,27 @@
 														<label class="mb-1">Quantity:</label>
 														<div class="product-qty-form">
 															<div class="input-group mb-3">
-																<span class="input-group-text"><i class="fa fa-minus"></i></span>
-																<input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" />
-																<span class="input-group-text"><i class="fa fa-plus"></i></span>
+																<span
+																	class="input-group-text quantity-left-minus p-4 bg-white"
+																	data-type="minus"
+																	data-field=""
+																	><i class="fa fa-minus"></i
+																></span>
+																<input
+																	type="text"
+																	id="quantity"
+																	name="quantity"
+																	class="form-control input-number"
+																	value="10"
+																	min="1"
+																	max="100"
+																/>
+																<span
+																	class="input-group-text quantity-right-plus p-4 bg-white"
+																	data-type="plus"
+																	data-field=""
+																	><i class="fa fa-plus"></i
+																></span>
 															</div>
 														</div>
 													</div>
@@ -2387,6 +2405,7 @@
 		<script src="assets/vendor/zoom/jquery.zoom.js"></script>
 		<script src="assets/vendor/photoswipe/photoswipe.js"></script>
 		<script src="assets/vendor/photoswipe/photoswipe-ui-default.js"></script>
+		<script src="assets/js/quantity.js"></script>
 
 		<!-- Main JS File -->
 		<script src="assets/js/main.min.js"></script>
