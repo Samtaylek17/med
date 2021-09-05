@@ -118,6 +118,40 @@ body {
 	background-color: #dc3636 !important;
 }
 
+.aside-menu {
+	color: #707070;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.aside-menu:focus {
+	color: inherit;
+}
+
+.aside-menu:hover i {
+	background-color: #e2422d3a;
+}
+
+.aside-menu-icon {
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	background-color: #e4e4e4;
+	padding: 10px 12px;
+	margin-right: 20px;
+}
+
+.checkout-items-view {
+	height: 60px;
+	border: 1px solid #ebebeb;
+	border-radius: 5px;
+}
+
+.input-number {
+	max-width: 50px !important;
+	padding: none;
+}
+
 .header-search {
 	max-width: 52rem;
 }
@@ -199,6 +233,13 @@ body {
 .socials > a > i {
 	color: #111111;
 	font-size: 20px;
+}
+
+/* Table */
+.cart-table-header {
+	font-size: 14px;
+	font-weight: 300;
+	border-bottom-color: #c4c4c4 !important;
 }
 
 @media screen and (max-width: 768px) {
