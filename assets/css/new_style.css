@@ -205,8 +205,17 @@ body {
 .shop-default-banner {
 	background-image: url(/assets/images/banner.jpg);
 	min-height: 500px;
-	background-size: cover;
+	background-size: contain;
 	/* background-position: right bottom; */
+}
+
+.featured-banner {
+	background-image: url(/assets/images/banner1/featured.png);
+	min-height: 300px;
+	background-size: cover;
+	background-position: right bottom;
+	padding: 25px;
+	border-radius: 10px;
 }
 
 .cart-count {
