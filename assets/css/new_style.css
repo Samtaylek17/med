@@ -1,6 +1,7 @@
 :root {
 	--orange: #ff9017;
 	--blue: #344863;
+	--grey: #707070;
 }
 
 * {
@@ -9,6 +10,10 @@
 
 body {
 	background-color: #fafafa;
+}
+
+.bg-grey {
+	background-color: var(--grey) !important;
 }
 
 .btn {
@@ -266,6 +271,20 @@ body {
 	font-size: 14px;
 }
 
+.btn-outline-inverse {
+	height: 48px;
+	text-align: center;
+	border-radius: 4px;
+	background-color: #fff;
+	border: 2px solid #222222;
+	white-space: nowrap;
+	text-transform: uppercase;
+}
+
+.edit-order {
+	margin-top: 55%;
+}
+
 /* Table */
 .cart-table-header {
 	font-size: 14px;
@@ -277,4 +296,30 @@ body {
 	.banner-header {
 		font-size: 30px;
 	}
+}
+
+/* Timeline CSS */
+.timeline-divider {
+	height: 2px;
+	width: 90%;
+	left: 5%;
+	background-color: #e4e4e4;
+	position: absolute;
+	top: 25%;
+	z-index: -1;
+}
+
+.select-active {
+	background: #e2422d2a;
+	border: 2px solid #e2432d;
+}
+
+.select-active .form-check-input:checked {
+	background-color: #e2432d;
+	border-color: #e2432d;
+}
+
+.form-check-input:checked {
+	background-color: #e2432d;
+	border-color: #e2432d;
 }
